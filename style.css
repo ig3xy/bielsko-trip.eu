@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	overflow-x: hidden;
+
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+	margin-left: 60px;
+	font-size: 3vw;
+	border-bottom: solid 1px orange;
+}
+
+li:hover{
+	color: #00C41A;
+}
+
+li:hover > a {
+	text-decoration: none;
+}
+
+
+img{
+	max-height: 245px;
+	margin: 5px;
+}
+
+.box{
+	margin-top: 20px;
+}
+
+#content{
+	height: auto;
+	width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+	float: left;
+}
+
+#mapa{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+#footer{
+
+
+}
